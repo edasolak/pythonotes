@@ -1,6 +1,6 @@
 #KAYNAKLAR
-https://python.swaroopch.com
-https://cscircles.cemc.uwaterloo.ca
-http://www.pyschools.com
-https://www.programiz.com/python-programming#learn-python-tutorial
-http://www.pythonforbeginners.com
+https://python.swaroopch.com <br/>
+https://cscircles.cemc.uwaterloo.ca <br/>
+http://www.pyschools.com <br/>
+https://www.programiz.com/python-programming#learn-python-tutorial <br/>
+http://www.pythonforbeginners.com <br/>
