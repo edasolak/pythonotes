@@ -19,82 +19,82 @@ python yazarak : >>> (etkileşimli kabuk),etkileşimli kabuktan çıkmak için :
 chmod +x firstprog.py -> python kodumuza çalıştırma yetkisi verir.<br/>
 Python için editör : PyCharm(kurulum için-> https://www.jetbrains.com/pycharm-edu/quickstart/installation.html#linux)<br/>
 
---------------------------------------------------------------------------------
+--------------------------------------------------------------------------------<br/>
 
-•Değişkenler ve Veri Tipleri
+•Değişkenler ve Veri Tipleri<br/>
 
->>>5+5 
-10
->>>'5''5'
-55
->>>4*5
-20
->>> '4'*5
-44444
->>> "a"+"b"
-ab
->>>"a"*3
-aaa
->>>3**2
-9
+>>>5+5<br/> 
+10<br/>
+>>>'5''5'<br/>
+55<br/>
+>>>4*5<br/>
+20<br/>
+>>> '4'*5<br/>
+44444<br/>
+>>> "a"+"b"<br/>
+ab<br/>
+>>>"a"*3<br/>
+aaa<br/>
+>>>3**2<br/>
+9<br/>
 
->>>x=1==1
-True
+>>>x=1==1<br/>
+True<br/>
 
->>>sayi = 1 + 2+ \
-...3 + 4
->>>sayi
-10
+>>>sayi = 1 + 2+ \<br/>
+...3 + 4<br/>
+>>>sayi<br/>
+10<br/>
 
->>>sayi2 = (1 + 2 +
-...3 + 4)
->>>sayi2
-10
+>>>sayi2 = (1 + 2 +<br/>
+...3 + 4)<br/>
+>>>sayi2<br/>
+10<br/>
 
->>>a=1;b=1;c=1 #kullanılabilir
->>>a, b, c = 5, 3.14, "Ola" #kullanılabilir
->>>x = y = z = "same"  #kullanılabilir
+>>>a=1;b=1;c=1 #kullanılabilir<br/>
+>>>a, b, c = 5, 3.14, "Ola" #kullanılabilir<br/>
+>>>x = y = z = "same"  #kullanılabilir<br/>
 
--Degişken ismi olarak kullanamayacaklarımız: False,class,finally,is,return,None	 continue,for,lambda,try,True,def,from,nonlocal,	while,and,del,global,not,with,as,
-elif,if,or,yield,assert,else,import,pass,break,except,in,raise
+-Degişken ismi olarak kullanamayacaklarımız: False,class,finally,is,return,None<br/>	 continue,for,lambda,try,True,def,from,nonlocal,	while,and,del,global,not,with,as,<br/>
+elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
 
--type(degisken) : değişkenin tipini verir
--int(degisken) : Değişkenin tipini int yapar
--float(degisken) : Değişkenin tipini float yapar
--degiskenstr='kelime' : String tanımlama
--len(degiskenstr) : String uzunluğunu verir
--degiskenstr.find('karakter') : karakteri ilk bulduğ yerin indisini verir
--degiskenstr.replace('kelime1', 'kelime2') : karakter dizisinde kelime1 gördüğü 
- yerleri kelime2 ile değiştirir
--degiskenstr.strip(): karakter dizisindeki başdaki ve sondaki boşlukları siler 
--degiskenstr.lower() : karakter dizisindeki bütün karakterleri küçük harfe dönüştürür
--degiskenstr[0:3] : 0.indis 1.indis 2.indis'teki karakterleri alır
--degiskenstr[5:8] : 5.indis 6. indis 7.indis'teki karakterleri alır
--degiskenstr[5:] : 5.indis'den sonuncu indise kadar kadar olan karakterleri alır
--max(a,b) : max değer
--min(a,b) : min değer
--liste tanımlama: a= [1,"merhaba",3.7]
--tuple(değiştirelemeyen liste) tanımlama: a = (1,"merhaba",3.7)
--set(tek olan değerleri tutan bir yapı,indexle erişilemez) tanımlama:a={1,2,3,4}
--dictionary tanımlama:a = {key:'value1',key2:'value2'}
+-type(degisken) : değişkenin tipini verir<br/>
+-int(degisken) : Değişkenin tipini int yapar<br/>
+-float(degisken) : Değişkenin tipini float yapar<br/>
+-degiskenstr='kelime' : String tanımlama<br/>
+-len(degiskenstr) : String uzunluğunu verir<br/>
+-degiskenstr.find('karakter') : karakteri ilk bulduğ yerin indisini verir<br/>
+-degiskenstr.replace('kelime1', 'kelime2') : karakter dizisinde kelime1 gördüğü<br/>
+ yerleri kelime2 ile değiştirir<br/>
+-degiskenstr.strip(): karakter dizisindeki başdaki ve sondaki boşlukları siler<br/> 
+-degiskenstr.lower() : karakter dizisindeki bütün karakterleri küçük harfe dönüştürür<br/>
+-degiskenstr[0:3] : 0.indis 1.indis 2.indis'teki karakterleri alır<br/>
+-degiskenstr[5:8] : 5.indis 6. indis 7.indis'teki karakterleri alır<br/>
+-degiskenstr[5:] : 5.indis'den sonuncu indise kadar kadar olan karakterleri alır<br/>
+-max(a,b) : max değer<br/>
+-min(a,b) : min değer<br/>
+-liste tanımlama: a= [1,"merhaba",3.7]<br/>
+-tuple(değiştirelemeyen liste) tanımlama: a = (1,"merhaba",3.7)<br/>
+-set(tek olan değerleri tutan bir yapı,indexle erişilemez) tanımlama:a={1,2,3,4}<br/>
+-dictionary tanımlama:a = {key:'value1',key2:'value2'}<br/>
 
- Print Fonksiyonu
--sep ve end parametreleri:
->>>print("honki","ponki","torino",sep='#',end='!')
-honki#ponki#torino&!
+ Print Fonksiyonu<br/>
+-sep ve end parametreleri:<br/>
+>>>print("honki","ponki","torino",sep='#',end='!')<br/>
+honki#ponki#torino&!<br/>
 
--format
->>>a=5
->>>b=10
->>>print('1. sayı: {} ,2. sayı: {}'.format(a,b))
-1. sayı: 5,2. sayı: 10
->>>print('1. sayı: {0} 2. sayı: {1}'.format(a,b))
->>>1. sayı: 5,2. sayı: 10
->>>print('1. sayı: {1} 2. sayı: {0}'.format(a,b))
->>>1. sayı: 10,2. sayı: 5
+-format<br/>
+>>>a=5<br/>
+>>>b=10<br/>
+>>>print('1. sayı: {} ,2. sayı: {}'.format(a,b))<br/>
+1. sayı: 5,2. sayı: 10<br/>
+>>>print('1. sayı: {0} 2. sayı: {1}'.format(a,b))<br/>
+>>>1. sayı: 5,2. sayı: 10<br/>
+>>>print('1. sayı: {1} 2. sayı: {0}'.format(a,b))<br/>
+>>>1. sayı: 10,2. sayı: 5<br/>
 
->>> print('Selam {kelime1}, {kelime2}'.format(kelime1 = 'Sana', kelime2 = 'Dünyalı'))
-Selam Sana Dünyalı
+>>> print('Selam {kelime1}, {kelime2}'.format(kelime1 = 'Sana', kelime2 = 'Dünyalı'))<br/>
+Selam Sana Dünyalı<br/>
 
--input
->>>deger=input("Giriş yapınız:")
+-input<br/>
+>>>deger=input("Giriş yapınız:")<br/>
