@@ -23,37 +23,38 @@ Python için editör : PyCharm(kurulum için-> https://www.jetbrains.com/pycharm
 
 •Değişkenler ve Veri Tipleri<br/>
 
->>>5+5<br/> 
-10<br/>
->>>'5''5'<br/>
-55<br/>
->>>4*5<br/>
+ <label>>>><label>5+5<br/> 
+ 10<br/>
+
+<label>>>><label>'5''5'<br/>
+ 55<br/>
+<label>>>><label>4*5<br/>
 20<br/>
->>> '4'*5<br/>
+<label>>>><label>'4'*5<br/>
 44444<br/>
->>> "a"+"b"<br/>
+<label>>>><label>"a"+"b"<br/>
 ab<br/>
->>>"a"*3<br/>
+<label>>>><label>"a"*3<br/>
 aaa<br/>
->>>3**2<br/>
+<label>>>><label>3**2<br/>
 9<br/>
 
->>>x=1==1<br/>
+<label>>>><label>x=1==1<br/>
 True<br/>
 
->>>sayi = 1 + 2+ \<br/>
+<label>>>><label>sayi = 1 + 2+ \<br/>
 ...3 + 4<br/>
->>>sayi<br/>
+<label>>>><label>sayi<br/>
 10<br/>
 
->>>sayi2 = (1 + 2 +<br/>
+<label>>>><label>sayi2 = (1 + 2 +<br/>
 ...3 + 4)<br/>
->>>sayi2<br/>
+<label>>>><label>sayi2<br/>
 10<br/>
 
->>>a=1;b=1;c=1 #kullanılabilir<br/>
->>>a, b, c = 5, 3.14, "Ola" #kullanılabilir<br/>
->>>x = y = z = "same"  #kullanılabilir<br/>
+<label>>>><label>a=1;b=1;c=1 #kullanılabilir<br/>
+<label>>>><label>a, b, c = 5, 3.14, "Ola" #kullanılabilir<br/>
+<label>>>><label>x = y = z = "same"  #kullanılabilir<br/>
 
 -Degişken ismi olarak kullanamayacaklarımız: False,class,finally,is,return,None<br/>	 continue,for,lambda,try,True,def,from,nonlocal,	while,and,del,global,not,with,as,<br/>
 elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
@@ -80,21 +81,21 @@ elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
 
  Print Fonksiyonu<br/>
 -sep ve end parametreleri:<br/>
->>>print("honki","ponki","torino",sep='#',end='!')<br/>
+<label>>>><label>print("honki","ponki","torino",sep='#',end='!')<br/>
 honki#ponki#torino&!<br/>
 
 -format<br/>
->>>a=5<br/>
->>>b=10<br/>
->>>print('1. sayı: {} ,2. sayı: {}'.format(a,b))<br/>
+<label>>>><label>a=5<br/>
+<label>>>><label>b=10<br/>
+<label>>>><label>print('1. sayı: {} ,2. sayı: {}'.format(a,b))<br/>
 1. sayı: 5,2. sayı: 10<br/>
->>>print('1. sayı: {0} 2. sayı: {1}'.format(a,b))<br/>
->>>1. sayı: 5,2. sayı: 10<br/>
->>>print('1. sayı: {1} 2. sayı: {0}'.format(a,b))<br/>
+<label>>>><label>print('1. sayı: {0} 2. sayı: {1}'.format(a,b))<br/>
+1. sayı: 5,2. sayı: 10<br/>
+<label>>>><label>print('1. sayı: {1} 2. sayı: {0}'.format(a,b))<br/>
 >>>1. sayı: 10,2. sayı: 5<br/>
 
->>> print('Selam {kelime1}, {kelime2}'.format(kelime1 = 'Sana', kelime2 = 'Dünyalı'))<br/>
+<label>>>><label> print('Selam {kelime1}, {kelime2}'.format(kelime1 = 'Sana', kelime2 = 'Dünyalı'))<br/>
 Selam Sana Dünyalı<br/>
 
 -input<br/>
->>>deger=input("Giriş yapınız:")<br/>
+<label>>>><label>deger=input("Giriş yapınız:")<br/>
