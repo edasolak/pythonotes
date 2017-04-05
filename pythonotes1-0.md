@@ -1,12 +1,12 @@
 # Python Temelleri
 •Python Teknolojileri <br/>
-Python paket yöneticisi -> pip (Python modüllerini kolayca yüklememizi sağlar) <br/>
-Python Web Frameworkleri -> djhango,web2py,flask,grok,tornado,turbogears.. <br/>
-Python Debugging araçları -> Pychecker,pudb,pdb,pylint.. <br/>
-Python Shell ->ipython,dreampie.. <br/>
-Python Game -> PyWeek,Pygame.. <br/>
-Python CMS -> Skeletonz,Mezzanine,Ikaro,Django.. <br/>
-Python GUI frameworkleri -> Tkinter,PyQT,WxPython.. <br/>
+-Python paket yöneticisi -> pip (Python modüllerini kolayca yüklememizi sağlar) <br/>
+-Python Web Frameworkleri -> djhango,web2py,flask,grok,tornado,turbogears.. <br/>
+-Python Debugging araçları -> Pychecker,pudb,pdb,pylint.. <br/>
+-Python Shell ->ipython,dreampie.. <br/>
+-Python Game -> PyWeek,Pygame.. <br/>
+-Python CMS -> Skeletonz,Mezzanine,Ikaro,Django.. <br/>
+-Python GUI frameworkleri -> Tkinter,PyQT,WxPython.. <br/>
 
 --------------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ python yazarak : >>> (etkileşimli kabuk),etkileşimli kabuktan çıkmak için :
 chmod +x firstprog.py -> python kodumuza çalıştırma yetkisi verir.<br/>
 Python için editör : PyCharm(kurulum için-> https://www.jetbrains.com/pycharm-edu/quickstart/installation.html#linux)<br/>
 
---------------------------------------------------------------------------------<br/>
+--------------------------------------------------------------------------------
 
 •Değişkenler ve Veri Tipleri<br/>
 
@@ -76,13 +76,13 @@ elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
 -min(a,b) : min değer<br/>
 -liste tanımlama: a= [1,"merhaba",3.7]<br/>
 -tuple(değiştirelemeyen liste) tanımlama: a = (1,"merhaba",3.7)<br/>
--set(tek olan değerleri tutan bir yapı,indexle erişilemez) tanımlama:a={1,2,3,4}<br/>
--dictionary tanımlama:a = {key:'value1',key2:'value2'}<br/>
+-set(tek olan değerleri tutan bir yapı,indexle erişilemez) tanımlama: a={1,2,3,4}<br/>
+-dictionary tanımlama: a = {key:'value1',key2:'value2'}<br/>
 
  Print Fonksiyonu<br/>
 -sep ve end parametreleri:<br/>
 <label>>>><label>print("honki","ponki","torino",sep='#',end='!')<br/>
-honki#ponki#torino&!<br/>
+honki#ponki#torino!<br/>
 
 -format<br/>
 <label>>>><label>a=5<br/>
@@ -92,7 +92,7 @@ honki#ponki#torino&!<br/>
 <label>>>><label>print('1. sayı: {0} 2. sayı: {1}'.format(a,b))<br/>
 1. sayı: 5,2. sayı: 10<br/>
 <label>>>><label>print('1. sayı: {1} 2. sayı: {0}'.format(a,b))<br/>
->>>1. sayı: 10,2. sayı: 5<br/>
+1. sayı: 10,2. sayı: 5<br/>
 
 <label>>>><label> print('Selam {kelime1}, {kelime2}'.format(kelime1 = 'Sana', kelime2 = 'Dünyalı'))<br/>
 Selam Sana Dünyalı<br/>
