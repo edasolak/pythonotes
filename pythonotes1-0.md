@@ -12,7 +12,7 @@
 
 •Python yükle,Python çalıştır.<br/>
 Bilgisayarda hazırda kurulu bir Python var mı? -> terminal ekranında : python -V <br/>
-Varsa:terminalde python yazarak pyhon etkileşimli kabuğa gidilir.(Python etkileşimli kabuk Python kodlarını<br/> 
+Varsa:terminalde python yazarak pyhon etkileşimli kabuğa gidilir.(Python etkileşimli kabuk Python kodlarını 
 çalıştırmamıza yarayan katmandır.)<br/>
 Yoksa : sudo apt-get install python3 (Debian tabanlı Linux dağıtımları için)<br/>
 python yazarak : >>> (etkileşimli kabuk),etkileşimli kabuktan çıkmak için : Ctrl+D<br/>
@@ -56,8 +56,8 @@ True<br/>
 <label>>>><label>a, b, c = 5, 3.14, "Ola" #kullanılabilir<br/>
 <label>>>><label>x = y = z = "same"  #kullanılabilir<br/>
 
--Degişken ismi olarak kullanamayacaklarımız: False,class,finally,is,return,None<br/>	 continue,for,lambda,try,True,def,from,nonlocal,	while,and,del,global,not,with,as,<br/>
-elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
+-Degişken ismi olarak kullanamayacaklarımız: False,class,finally,is,return,None,continue,for,lambda,try,True,def,from,nonlocal,while,and,del,global,not,<br/>
+with,as,elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
 
 -type(degisken) : değişkenin tipini verir<br/>
 -int(degisken) : Değişkenin tipini int yapar<br/>
@@ -65,8 +65,7 @@ elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
 -degiskenstr='kelime' : String tanımlama<br/>
 -len(degiskenstr) : String uzunluğunu verir<br/>
 -degiskenstr.find('karakter') : karakteri ilk bulduğ yerin indisini verir<br/>
--degiskenstr.replace('kelime1', 'kelime2') : karakter dizisinde kelime1 gördüğü<br/>
- yerleri kelime2 ile değiştirir<br/>
+-degiskenstr.replace('kelime1', 'kelime2') : karakter dizisinde kelime1 gördüğü yerleri kelime2 ile değiştirir<br/>
 -degiskenstr.strip(): karakter dizisindeki başdaki ve sondaki boşlukları siler<br/> 
 -degiskenstr.lower() : karakter dizisindeki bütün karakterleri küçük harfe dönüştürür<br/>
 -degiskenstr[0:3] : 0.indis 1.indis 2.indis'teki karakterleri alır<br/>
