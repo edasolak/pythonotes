@@ -30,13 +30,13 @@
 -map()<br>
 
 •Pyhthonda Docstring
-Python, dokümantasyon dizeleri olarak adlandırılan bir özelliğe sahiptir.DocStrings, programı daha iyi belgelemenize yardımcı olması ve anlaşılmasını kolaylaştırır.Fonksiyon tanımlandıktan sonra üç tane tırnaklar içine yazılan açıklama docstringdir. <br>
+Python, dokümantasyon dizeleri olarak adlandırılan bir özelliğe sahiptir.DocStrings, programı daha iyi belgelemenize yardımcı olması ve anlaşılmasını kolaylaştırır.Fonksiyon tanımlandıktan sonra üç tırnaklar içine yazılan açıklama,docstringdir. <br>
 
 def myfonk(x, y):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;'''Bu fonksiyon şunu<br>
 &nbsp;&nbsp;&nbsp;&nbsp;yapar.''' 
     
-print(myfonk.__doc__) #şeklinde fonksiyonun docstringini görülebilir.    
+print(myfonk.<label>__doc__</label>) #şeklinde fonksiyonun docstringini görülebilir.    
 
 -Modüllerin Docstringleri
 
