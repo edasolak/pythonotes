@@ -5,34 +5,50 @@
 •elif:  #else if<br>
 •else:  <br>
 
-•for i in range(1, 5):#range(1,5)-1'den 5'e kadar-1,2,3,4 #range(1,5,2)-1'den 5'ekadar 2 artışla-1,3 #range(3) = range(0,3)<br>
-     print(i)<br>
- 
- 
+•for i in range(1, 5):#range(1,5)->1'den 5'e kadar->1,2,3,4 #range(1,5,2)->1'den 5'ekadar 2 artışla->1,3 #range(3) = range(0,3)<br>
+
+•for val in "kelime":    
+
+
 •break<br>
 •continue<br>
-•while a < b: <br>
 
-•for val in "kelime" :    #çıktı->k e l m e The end  <br>
-     if val == "i": <br>
-         break      <br>          
-     print(val)<br>
- print("The end")<br>
+•while a < b: <br>
+•while True: <br>
  
 •Pythonda Fonksiyon<br>
+
 -def myfonk():<br>
-    print('canım fonksiyon') <br>
-myfonk()  #fonksiyon çağırma<br>
--def greet(name1,name2): #argument olarak iki parametre alan fonksiyon<br>
--def greet(*names): #argument olarak tuple alan fonksiyon<br>
+-def myfonk(name1,name2): #argument olarak iki parametre alan fonksiyon<br>
+-def myfonk(*names): #argument olarak tuple alan fonksiyon<br>
+-def myfonk(message, times=1): #fonksiyon içinde parametre değeri verilebilir eğer fonksiyon çağrılırken sadece 1.parametre gönderilirse times parametresi 1 olur.Eğer fonksiyon çağrılırken iki parametre gönderilirse times parametresi gönderilen değerdir.
 
 -double = lambda x: x * 2 #lambda fonksiyonu(tek ifadeli fonksiyonlar),<br>
-örnekteki double(deger) şeklinde çalışır ve gelen değeri, ikiyle çarpar.<br>
+örnekteki double fonksiyonu double(deger) şeklinde çalışır ve gelen değeri, ikiyle çarparak döndürür.<br>
 
 -filter()<br>
 -map()<br>
 
+•Pyhthonda Docstring
+Python, dokümantasyon dizeleri olarak adlandırılan bir özelliğe sahiptir.DocStrings, programı daha iyi belgelemenize yardımcı olması ve anlaşılmasını kolaylaştırır.Fonksiyon tanımlandıktan sonra üç tane tırnaklar içine yazılan açıklama docstringdir. <br>
 
+def myfonk(x, y):<br>
+&nbsp;&nbsp;&nbsp;&nbsp;'''Bu fonksiyon şunu<br>
+&nbsp;&nbsp;&nbsp;&nbsp;yapar.''' 
+    
+print(myfonk.__doc__) #şeklinde fonksiyonun docstringini görülebilir.    
+
+-Modüllerin Docstrinleri
+
+<label>>>> import mymodule<br>
+<label>>>> help(mymodule.MyClass)<br>
+class'ın docstringi<br>
+
+<label>>>> help(mymodule.MyClass.my_method)<br>
+methodun docstringi<br>
+
+<label>>>> help(mymodule.my_function)<br>
+fonksiyonun docstringi<br>
 
 
 
