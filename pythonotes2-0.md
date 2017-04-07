@@ -38,7 +38,7 @@ def myfonk(x, y):<br>
     
 print(myfonk.__doc__) #şeklinde fonksiyonun docstringini görülebilir.    
 
--Modüllerin Docstrinleri
+-Modüllerin Docstringleri
 
 <label>>>> import mymodule<br>
 <label>>>> help(mymodule.MyClass)<br>
