@@ -52,12 +52,18 @@ True<br/>
 <label>>>></label>sayi2<br/>
 10<br/>
 
+-----------------------------------------------------------------------------
+
 <label>>>></label>a=1;b=1;c=1 #kullanılabilir<br/>
 <label>>>></label>a, b, c = 5, 3.14, "Ola" #kullanılabilir<br/>
 <label>>>></label>x = y = z = "same"  #kullanılabilir<br/>
 
+-----------------------------------------------------------------------------
+
 -Degişken ismi olarak kullanamayacaklarımız: False,class,finally,is,return,None,continue,for,lambda,try,True,def,from,nonlocal,while,and,del,global,not,<br/>
 with,as,elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
+
+-----------------------------------------------------------------------------
 
 -type(degisken) : değişkenin tipini verir<br/>
 -int(degisken) : Değişkenin tipini int yapar<br/>
@@ -78,6 +84,19 @@ with,as,elif,if,or,yield,assert,else,import,pass,break,except,in,raise<br/>
 -set(tek olan değerleri tutan bir yapı,indexle erişilemez) tanımlama: a={1,2,3,4}<br/>
 -dictionary tanımlama: a = {key:'value1',key2:'value2'}<br/>
 
+-----------------------------------------------------------------------------
+
+my_string.isalnum()		#bütün karakterler sayıysa True döndürür
+my_string.isalpha()		#bütün karakterler sayıysa True döndürür
+my_string.isdigit()		#string rakam içeriyorsa True döndürür
+my_string.isupper()		#string büyük harf içeriyorsa True döndürür
+my_string.islower()		#string küçük harf içeriyorsa True döndürür
+my_string.isspace()		#string boşluk içeriyorsa True döndürür
+my_string.endswith('m')		#string m ile bitiyorsa True döndürü
+my_string.startswith('H')	#string H ile başlıyorsa True döndürür
+
+-----------------------------------------------------------------------------
+
  Print Fonksiyonu<br/>
 -sep ve end parametreleri:<br/>
 <label>>>></label>print("honki","ponki","torino",sep='#',end='!')<br/>
@@ -95,6 +114,8 @@ honki#ponki#torino!<br/>
 
 <label>>>></label> print('Selam {kelime1}, {kelime2}'.format(kelime1 = 'Sana', kelime2 = 'Dünyalı'))<br/>
 Selam Sana Dünyalı<br/>
+
+-----------------------------------------------------------------------------
 
 -input<br/>
 <label>>>></label>deger=input("Giriş yapınız:")<br/>
