@@ -48,15 +48,12 @@ fonksiyonun docstringi<br>
 ----------------------------------------------------------------------------------------------
 
 •Modüller<br>
--Temelde zaten yazılı olan bir dosyalardır.<br>
-import sys<br>    		   		
-#sys modülüne erişim,örn: >>>sys.version<br>
-from sys import version<br>    
-#sys modülünde version'a erişim,örn: >>> version()<br> 
-from sys import *<br>       
-#sys modülündeki tüm sınıf ve fonksiyonlara başına modülün ismini yazmadan erişim,örn: version()<br>
-import sys as s
-#sys modülünü artık s ismi kullanabiliriz. örn: >>>s.version<br>
+<p>-Temelde zaten yazılı olan bir dosyalardır.
+
+import sys #sys modülüne erişim,örn: >>>sys.version
+from sys import version #sys modülünde version'a erişim,örn:>>>version()
+from sys import &#42; #sys modülündeki tüm sınıf ve fonksiyonlara başına modülün ismini yazmadan erişim,örn:>>>version()
+import sys as s #sys modülünü artık s ismi kullanabiliriz. örn:>>>s.version
 <label>>>> dir(sys)<br>
-#sys modülünün sahip olduğu nitelikleri(fonksiyonlar,değişkenler) gösterir.<br>
+#sys modülünün sahip olduğu nitelikleri(fonksiyonlar,değişkenler) gösterir.
 
