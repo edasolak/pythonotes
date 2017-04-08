@@ -1,4 +1,4 @@
-•Python'da Döngüler ve Karar Yapılar<br>
+•Python'da Döngüler ve Karar Yapıları<br>
 •if a < b : <br>
 •if True:<br>
 •elif:  #else if<br>
@@ -9,6 +9,8 @@
 •continue<br>
 •while a < b: <br>
 •while True: <br>
+
+-------------------------------------------------------------------------------------
  
 •Python'da Fonksiyon<br>
 
@@ -19,6 +21,8 @@
 
 -double = lambda x: x * 2 #lambda fonksiyonu(tek ifadeli fonksiyonlar),<br>
 örnekteki double fonksiyonu double(deger) şeklinde çalışır ve gelen değeri, ikiyle çarparak döndürür.<br>
+
+----------------------------------------------------------------------------------------
 
 •Pyhthon'da Docstring<br>
 Python, dokümantasyon dizeleri olarak adlandırılan bir özelliğe sahiptir.DocStrings, programı daha iyi belgelemenize yardımcı olması ve anlaşılmasını kolaylaştırır.Fonksiyon tanımlandıktan sonra üç tırnaklar içine yazılan açıklama,docstringdir. <br>
@@ -41,14 +45,18 @@ methodun docstringi<br>
 <label>>>> help(mymodule.my_function)<br>
 fonksiyonun docstringi<br>
 
-•Modüller
+----------------------------------------------------------------------------------------------
 
-
-
-
-    
-
-
-
-
+•Modüller<br>
+-Temelde zaten yazılı olan bir dosyalardır.<br>
+import sys<br>    		   		
+#sys modülüne erişim,örn: >>>sys.version<br>
+from sys import version<br>    
+#sys modülünde version'a erişim,örn: >>> version()<br> 
+from sys import *<br>       
+#sys modülündeki tüm sınıf ve fonksiyonlara başına modülün ismini yazmadan erişim,örn: version()<br>
+import sys as s
+#sys modülünü artık s ismi kullanabiliriz. örn: >>>s.version<br>
+<label>>>> dir(sys)<br>
+#sys modülünün sahip olduğu nitelikleri(fonksiyonlar,değişkenler) gösterir.<br>
 
