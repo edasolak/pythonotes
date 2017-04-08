@@ -3,9 +3,10 @@
 •Numbers <br>
 •String <br>
 •List <br>
+•Tuple <br>
 •Set <br>
 •Dictionary <br>
-•Tuple <br>
+
 
 ----------------------------------------------------------------------------
 
@@ -75,6 +76,7 @@ my_list4=["Ola", [8, 4, 6], ['E']] #Erişirken,mylist4[0]="Ola",mylist4[0][1]="l
 mylist5=[1,2,3,4] #Erişirken mylist5[-2]=3 <br>
 
 Liste ile ilgili metodlar <br>
+
 append() - sonuna eleman ekler <br>
 extend() - listenin sonuna başka bir liste ekler <br>
 insert() - indexle eleman ekler <br>
@@ -89,6 +91,7 @@ copy()    - listenin kopyasını alır <br>
 del listeadı[index] -listede index ile eleman siler <br>
 
 Liste ile ilgili Built-in Functions <br>
+
 all()	-listenin bütün elemanları True döndürüyorsa ise True döndürür<br>
 any()	-listenin hiçbir elemanı True döndürmüyor ise True döndürür<br>
 enumerate()	-numaralandırılmış bir nesneyi döndürür<br>
@@ -112,6 +115,7 @@ mytuple5="merhaba",2<br>
 my_tuple6 = (4, 2, 3, [6, 5]) #Bu tuple'da 4,2,3 değiştirilemez ancak 3. indexdeki listenin verileri değiştirilebilir<br>
 
 Tuple ile ilgili metodlar<br>
+
 count()	#gönderilen değerde touple'da kaç tane var <br>
 index() # gönderilen indexteki elemanı verir <br>
 
