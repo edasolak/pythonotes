@@ -74,7 +74,7 @@ mylist3=[1,2,"merhaba",2.3] #Erişirken,mylist3[2]="merhaba" <br>
 my_list4=["Ola", [8, 4, 6], ['E']] #Erişirken,mylist4[0]="Ola",mylist4[0][1]="l",mylist4[1][1]=4 <br>
 mylist5=[1,2,3,4] #Erişirken mylist5[-2]=3 <br>
 
-Liste ile ilgili methodlar <br>
+Liste ile ilgili metodlar <br>
 append() - sonuna eleman ekler <br>
 extend() - listenin sonuna başka bir liste ekler <br>
 insert() - indexle eleman ekler <br>
@@ -99,6 +99,94 @@ min()	-listedeki min değeri döndürür<br>
 sorted() -sıralanmış listeyi döndürür<br>
 sum()	-listedeki elemanların toplamını döndürür <br>
 
+--------------------------------------------------------------------------
+
+•Tuple <br>
+Değiştirilemeyen listelerdir.<br>
+mytuple()<br>
+mytuple2(1,2,3)<br>
+mytuple3=(1, "Ola", 2.3)<br>
+mytuple4=("merhaba", [1, 2, 3], (4, 5, 6)) #Erişirken,mytuple4[0]="merhaba",mylist4[0][1]="m",mylist4[1][1]=2 <br>
+mytuple5="merhaba", #parantez olmadığındada tuple'dır<br>
+mytuple5="merhaba",2<br>
+my_tuple6 = (4, 2, 3, [6, 5]) #Bu tuple'da 4,2,3 değiştirilemez ancak 3. indexdeki listenin verileri değiştirilebilir<br>
+
+Tuple ile ilgili metodlar<br>
+count()	#gönderilen değerde touple'da kaç tane var <br>
+index() # gönderilen indexteki elemanı verir <br>
+
+Tuple ile ilgili Built-in Functions <br>
+all()	-tuple'ın bütün elemanları True döndürüyorsa ise True döndürür<br>
+any()	-tuple'ın hiçbir elemanı True döndürmüyor ise True döndürür<br>
+enumerate()	-numaralandırılmış bir nesneyi döndürür<br>
+len() -eleman sayısını döndürür <br>s
+sorted() -sıralanmış tuple'ı döndürür<br>
+sum()	-tuple'daki elemanların toplamını döndürür <br>
+
+-------------------------------------------------------------------------------------------------------------------
+
+•Set <br>
+Set'de elemanlar tekrar etmez.
+Set'de indexleme yoktur,myset[0] anlamsızdır.
+myset{} #bu bir set değil dictionary'dir boş set için myset=set() şeklinde kullanılmalıdır.
+myset2={1,2,3}
+myset3={1.0, "Ola", (1, 2, 3)}
+
+Set ve Operatörler
+A | B İki set'in birleşim kümesi
+A & B İki set'in kesişim kümesi
+A - B A set'inde olup B set'inde olmayanlar
+B - A B set'inde olup A set'inde olmayanlar 
+
+Set ile ilgili metodlar<br>
+
+add()	-sete eleman ekler <br>
+clear()	-seti temizler <br>
+copy()	-setin kopyasını alır
+difference() -iki setin farkını döndürür<br>
+difference_update() -diğer setten farklı olan elemanları siler,a.difference_update(b) şeklinde kullanılır<br>
+discard()	-eğer set gönderilen elemanı içeriyorsa o elamanı siler  <br>
+intersection()	-iki setin kesişimi döndürür<br>
+intersection_update()	-iki setin kesişimini alır ve kesişim kümesini sete atar<br>
+isdisjoint()	-kesişimleri null'sa True döndürür<br>
+issubset()	-parametre gönderilen set diğer seti içeriyorsa True döndürür<br>
+issuperset() -parametre gönderilen set diğer seti kapsıyorsa True döndürür<br>
+pop()	-rastgele eleman siler ve seti döndürür,boşsa hata verir<br>
+remove() -setden eleman siler,boşsa hata verir<br>
+symmetric_difference()	-simetrik farkı döndürür<br>
+symmetric_difference_update()	-simetrik farkı sete atar<br>
+union()	-setlerin birleşimini döndürür<br>
+update()	-setlerin birleşimini sete atar <br>
+
+-----------------------------------------------------------------------
+
+•Dictionary <br>
+
+Elementler key ve value(değer) şeklinde tutulur. <br>
+Key ve value iki nokta ile, elementler virgülle ayrılır. <br>
+Değerler tekrar edebilir ancak key tekrar edemez. <br>
+Elementlere key ile erişilir. <br>
+
+my_dict = {} #boş dictionary <br>
+my_dict2 = {1: 'aa', 2: 'bb'} <br>
+my_dict3 = {'name': 'ee', 1: [1, 2, 3]} <br>
+my_dict4= dict({1: 'aa', 2: 'bb'}) <br>
+my_dict5= dict([(1,'aa'), (2,'bb')]) <br>
+
+
+Dictionary ile ilgili metodlar<br>
+
+clear()	-dictionary'nin tüm elemanlarını siler <br>
+copy()	 -dictionary'nin kopyasını alır <br>
+fromkeys()	-dictionary'nin keylerini alır ve yeni dictionary oluşturur,örn: newdict=dict.fromkeys(mydict) <br>
+get()	-keyin değerini döndürür <br>
+items()	-dictionary'nin yeni bir görüntüsünü döndürür  <br>
+keys()	-keyleri döndürür <br>
+pop()	-key ile eleman siler  <br>
+popitem()	-rastgele eleman siler <br>
+setdefault()	-key,dictionary'de varsa değerini döndürür,yoksa dictionary'a keyi ekler ve değerine 'None' atar <br>
+update([])	-dictionary'i başka dictionary ile güncelleme  <br>
+values()	-değerleri döndürür  <br>
 
 
 
