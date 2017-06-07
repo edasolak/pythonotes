@@ -1,4 +1,5 @@
-#KAYNAKLAR <br/>
+#KAYNAKLAR
+
 https://python.swaroopch.com <br/>
 https://cscircles.cemc.uwaterloo.ca <br/>
 http://www.pyschools.com <br/>
