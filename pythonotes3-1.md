@@ -21,3 +21,4 @@ print file.read(5) #İlk 5 karakteri döndürür<br>
 print file.readline(): #İlk satırı döndürür<br>
 print file.readline(3): #Üçüncü satırı döndürür<br>
 print file.readlines() #Bütün satırları döndürür <br>
+ 
