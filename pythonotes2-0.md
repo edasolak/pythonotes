@@ -3,7 +3,10 @@
 •if True:<br>
 •elif:  #else if<br>
 •else:  <br>
-•for i in range(1, 5):#range(1,5)->1'den 5'e kadar->1,2,3,4 #range(1,5,2)->1'den 5'ekadar 2 artışla->1,3 #range(3) = range(0,3)<br>
+•for i in range(1, 5):
+#range(1,5)->1'den 5'e kadar->1,2,3,4 <br>
+#range(1,5,2)->1'den 5'ekadar 2 artışla->1,3 <br>
+#range(3) = range(0,3)<br>
 •for val in "kelime": <br>  
 •break<br>
 •continue<br>
