@@ -37,7 +37,7 @@ x=2(0000 0010) y=5(0000 0101) olsun<br>
 
 \&	Bitwise AND	x& y = 0 (0000 0000)<br>
 \|	Bitwise OR	x | y = 7 (0000 0111)<br>
-\~	Bitwise NOT	~x = -2 (11111101)<br>
+\~	Bitwise NOT	~x = -2 (11111101)<br> 
 \^	Bitwise XOR	x ^ y = 7 (0000 0111)<br>
 \>>	Bitwise left shift	x<< 2 = 8 (0000 1000)<br>
 \<<	Bitwise right shift	y>> 2 = 1 (0000 0001)<br>
