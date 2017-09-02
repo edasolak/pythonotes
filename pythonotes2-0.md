@@ -31,7 +31,7 @@ def myfonk(x, y):<br>
 &nbsp;&nbsp;&nbsp;&nbsp;'''Bu fonksiyon şunu<br>
 &nbsp;&nbsp;&nbsp;&nbsp;yapar.''' 
     
-<label>print(myfonk.&#95;&#95;doc&#95;&#95;) #şeklinde fonksiyonun docstringini görülebilir.</label><br>
+<label>print(myfonk.&#95;&#95;doc&#95;&#95;) #şeklinde fonksiyonun docstringini görülebilir.</label><br> 
 
 -Modüllerin Docstringleri
 
