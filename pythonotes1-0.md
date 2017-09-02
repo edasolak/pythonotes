@@ -36,7 +36,7 @@ ab<br>
 <label>>>></label>"a"*3<br>
 aaa<br/>
 <label>>>></label>3**2<br>
-9<br/>
+9<br/> 
 
 <label>>>></label>x=1==1<br>
 True<br>
