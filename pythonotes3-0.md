@@ -36,7 +36,7 @@ print(fractions.Fraction('1.1')) #Çıktı:11/10 <br>
 
 ---------------------------------------------------------------------------------
 
-•String <br>
+•String <br> 
 
  x = "mystring" <br>
  m y s t r i n g <br>
